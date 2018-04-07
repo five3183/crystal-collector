@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Index Page</title>
+    <!-- Add Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <!-- Add CSS-->
+    <link rel="stylesheet" type="text/css" href="assets/style/style.css">
+    <!-- Add JQ-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class = "row">
+            <div class "col-md-12">
+                <h1>Crystal Collector</h1>
+                <button onClick = "this.style.visibility='hidden';" type="button" class="btn btn-primary" id = "startGame">Start Game</button>
+            </div>
+            <div class "col-md-12 instructionArea">
+                <div class "col-md-8 instructionBox">
+                    <p>You will be given a random number at the start of the game.</p>
+                    <p>There are four crystals below.  By clicking on a crystal, you will add a specific amount to points to your total score.</p>
+                    <p>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number. </p>
+                    <p>The value of each crystal is hidden from you until you click on it. </p>
+                    <p>Each time when the game starts, the game will change the values of each crystal.</p>
+                </div>
+            </div>
+            <div class = "col-md-12 randomArea">
+                <div class = "col-md-4 randomBox"></div>
+                <div class = "col-md-1 placeHolder"></div>
+                <div class = "col-md-4 winLossBox">
+                    <div class = "col-md-2 WINS">Wins:<span id = "WINS"></span></div>
+                    <div class = "col-md-2 LOSSES">Losses:<span id = "LOSSES"></span></div>
+                </div>
+            </div>
+            <div class = "col-md-12">
+                <div class = "col-md-6 crystalArea">
+                    <div class = "col-md-2 crystal RED"><img id="imageme" src="https://placehold.it/50x50"></div>
+                    <div class = "col-md-2 crystal BLUE"><img id="imageme" src="https://placehold.it/50x50"></div>
+                    <div class = "col-md-2 crystal YELLOW"><img id="imageme" src="https://placehold.it/50x50"></div>
+                    <div class = "col-md-2 crystal GREEN"><img id="imageme" src="https://placehold.it/50x50"></div>
+                </div>
+            </div>
+            <div class = "col-md-12">
+                <div class = "col-md-4 scoreHeading">Your total score is:</div>
+            </div>
+            <div class = "col-md-12 scoreArea">
+                <div class = "col-md-4 SCORE"></div>
+            </div>
+
+
+
+
+
+
+<!-- Add JS-->
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
