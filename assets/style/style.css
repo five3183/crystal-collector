@@ -1,0 +1,97 @@
+body {
+   background-color: blue;
+}
+.crystal {
+    height: 100px;
+    width: 100px;
+    align-content: center;
+    padding: 0px;
+}
+#redCrystal {
+    height: 100px;
+    width: 100px;
+    border: 10px;
+    padding: 10px;
+}
+#blueCrystal {
+    height: 100px;
+    width: 100px;
+    border: 10px;
+    padding: 10px;
+}
+#yellowCrystal {
+    height: 100px;
+    width: 100px;
+    border: 10px;
+    padding: 10px;
+}
+
+#greenCrystal {
+    height: 100px;
+    width: 100px;
+    border: 10px;
+    padding: 10px;
+}
+
+.crystalArea {
+    background-image:  url("../images/grass.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+h1 {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    font-size: 48px;
+}
+
+#STARTBUTTON {
+text-align: center;
+
+}
+
+.instructionArea {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+p {
+    text-align: left;
+}
+
+.randomBox {
+    height: 100px;
+    width: 200px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 30px;
+}
+
+.winLossBox {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px; 
+}
+.scoreHeading {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+h3 {
+    width: auto;
+    text-align: left;
+    background-color: black;
+    color: white;
+    padding: 20px; 
+}
+.SCORE {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px; 
+}
