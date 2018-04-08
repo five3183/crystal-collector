@@ -10,33 +10,31 @@ body {
 #redCrystal {
     height: 100px;
     width: 100px;
-    border: 10px;
     padding: 10px;
 }
 #blueCrystal {
     height: 100px;
     width: 100px;
-    border: 10px;
     padding: 10px;
 }
 #yellowCrystal {
     height: 100px;
     width: 100px;
-    border: 10px;
     padding: 10px;
 }
 
 #greenCrystal {
     height: 100px;
     width: 100px;
-    border: 10px;
     padding: 10px;
 }
 
 .crystalArea {
-    background-image:  url("../images/grass.jpg");
-    background-repeat: no-repeat;
-    background-size: cover; 
+    background-color: black;
+    align-content: center;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
 }
 
 h1 {
@@ -63,8 +61,6 @@ p {
 }
 
 .randomBox {
-    height: 100px;
-    width: 200px;
     text-align: center;
     background-color: black;
     color: white;
