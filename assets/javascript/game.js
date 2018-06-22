@@ -38,12 +38,14 @@ $(document).ready(function() {
         win++;
         $("#WINS").text(win);
         newGame();
+        alert("You win!");
     }
 
     function lossCon() {
         loss++;
         $("#LOSSES").text(loss);
         newGame();
+        alert("You lose!")
     } 
 
     $(".RED").on("click", function() {
